@@ -1,0 +1,8 @@
+﻿title: "반려동물 라이프 & 펫페어 정보센터"
+description: "2026 케이펫페어 송도 사전등록 안내, 반려견 및 반려묘 용품, 나들이 정보를 제공합니다."
+url: "https://pet.enjoy-onepage.com"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
