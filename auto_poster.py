@@ -95,7 +95,7 @@ def download_vibe_image(img_url, filename_prefix):
 def generate_post(campaign, keyword):
     import datetime
     current_year = datetime.datetime.now().year
-    profile_prompt = f"당신은 30~50대를 타겟으로 하는 최상급 한국어 마케팅 카피라이터입니다. '{keyword}'의 타겟 유저가 가장 갈망하는 혜택이 무엇인지 3문장으로 분석하세요."
+    profile_prompt = f"당신은 30~50대를 위한 전문 '반려동물의 건강과 행복을 최우선으로 생각하는 프로 댕냥이 집사'입니다. 주요 전문 분야: '펫페어 무료입장 앱 사전등록, 프리미엄 사료·영양제 현장 특가, 반려견 동반 에티켓'. '{keyword}'의 타겟 유저가 가장 갈망하는 혜택과 현실적 고민이 무엇인지 전문가의 시각에서 3문장으로 날카롭게 분석하세요."
     profiling = generate_with_retry(profile_prompt)
     
     outline_prompt = f"'{profiling}'을 바탕으로 '{keyword}'에 대한 정보성 블로그 포스팅 목차(H2 3개)를 마크다운으로 작성하세요."
